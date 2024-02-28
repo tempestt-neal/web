@@ -50,6 +50,21 @@
                   <li class="page-scroll">
                      <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#">Research</a>
                   </li>
+
+                   <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                     Research<span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a onclick="javascript:reset_menus();$('#tab-research-content').show();" href="#team">Team</a></li>
+                        <li><a onclick="javascript:reset_menus();$('#tab-research-content').show();" href="#topics">Topics</a></li>
+                        <li><a onclick="javascript:reset_menus();$('#tab-research-content').show();" href="#participate">Participate</a></li>
+                        <li><a onclick="javascript:reset_menus();$('#tab-research-content').show();" href="#pubs">Publications</a></li>
+                        <li><a onclick="javascript:reset_menus();$('#tab-research-content').show();" href="#join">Join Us</a></li>
+
+                     </ul>
+                  </li>
+
+                  
                   <li class="dropdown">
                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                      Publications<span class="caret"></span></a>
@@ -125,7 +140,43 @@
          </h4>
          <h4><i>Expertise: Biometrics &amp; Smart Sensing </i> <a href="#intro" onclick="javascript:reset_menus();$('#tab-intro-content').show();" class="btn-primary btn-xs">&raquo;</a><br></h4>
       </div>
-      <!-- Home Section -->
+
+      <!-- Participate Section -->
+      <section  name="participate" id="participate">
+         <div class="container lead">
+         <div style="text-align: left; margin-top:10px" class="col-md-12">
+         <b class="noshow" style="display:none;" id="tab-10">
+         <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-contact-content').toggle();">Contact  <span class="glyphicon glyphicon-chevron-down"></span></button>
+         </b>
+         <div class="allshow" style="display:none;" id="tab-contact-content">
+            <hr class="star-primary">
+            <h2>Contact</h2>
+            <div class="container lead">
+               <div align="left" class="col-md-3">
+                  <h4>OFFICE ADDRESS</h4>
+                  Tempestt Neal<br>
+                  ENB 310 <br>
+                  Dept. of Computer Science and Engineering<br>
+                  University of South Florida<br>
+                  4202 E. Fowler Avenue<br>
+                  Tampa, FL 33620<br>
+                  </p>
+               </div>
+               <div align="left" class="col-md-3">
+                  <h4>OFFICE DIRECTIONS</h4>
+                  <p><a href="https://goo.gl/maps/uem5VX5EvJqJnEJr7" target="_blank"><img src="images/directions.png" border="0"
+                     width="150"> <br>https://goo.gl/maps/uem5VX5EvJqJnEJr7</a>
+                  </p>
+               </div>
+            </div>
+            <hr class="star-primary">
+         </div>
+      </section>
+
+
+
+         
+      <!-- Contact Section -->
       <section  name="contact" id="contact">
          <div class="container lead">
          <div style="text-align: left; margin-top:10px" class="col-md-12">
